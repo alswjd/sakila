@@ -51,9 +51,9 @@
         	<div class="row">
            	<!-- 사용된 언어 및 IDE -->
                <div class="col-xl-6 col-md-12">
-                   <div class="card bg-primary {background-color : #FFA648} text-white mb-4" style="background-color : #FFA648">
+                   <div class="card  text mb-4"  style="background-color : #e6cdfa">
                    
-                       <div class="card-body">사용된 언어 및 IDE</div>
+                       <div class="card-body"># 사용된 언어 및 IDE</div>
                        
                        <!-- 언어 -->
                        <div class="card-footer d-flex align-items-center justify-content-between">
@@ -84,7 +84,7 @@
                         <!-- IDE -->
                        <div class="card-footer d-flex align-items-center justify-content-between">
                              <div>
-                     <h6>사용된 IDE</h6>
+                     <h6># 사용된 IDE</h6>
                             </div>
                            
                        </div>
@@ -95,7 +95,7 @@
                      <img src="<%=request.getContextPath()%>/imgs/eclipse.jpg" class="rounded-circle" style="width: 100px; height: 100px;">
                             <a>Eclipse</a>
                             </div>
-                       <div class="small text-white"></div>
+                       <div class="small "></div>
                        </div>
                        
                        
@@ -104,8 +104,8 @@
                
             <!--  사용된 DB -->   
                <div class="col-xl-6 col-md-12">
-                   <div class="card bg-warning text-white mb-4">
-                       <div class="card-body">사용된 DB</div>
+                   <div class="card text mb-4"  style="background-color : #e6cdfa">
+                       <div class="card-body"># 사용된 DB</div>
                         <!-- sakila -->
                        <div class="card-footer d-flex align-items-center justify-content-between">
                              <div>
@@ -118,7 +118,7 @@
                        <div class="card-footer d-flex align-items-center justify-content-between" style="border-top-width: 0px;">
                        
                              <div >
-                     <a>▶ DVD대여점을 모델링한 Database입니다. </a>
+                     <a>▶ DVD 대여점을 모델링한 Database입니다. </a>
                      <br>
                      <a>▶ 총 16개의 테이블, 7개의 뷰, 3개의 프로시저 , 6개의 트리거, 3개의 함수로 이루어져 있습니다.</a>
                      <br>
@@ -131,11 +131,11 @@
                      <br>
                      <a>▶ 가게 정보에는 store, inventory,staff 테이블로 구성하였습니다.</a>
                      <br>
-                             <a>▶ 주소 정보에는 address, city, country 테이블로 구성하였습니다.</a>
+                     <a>▶ 주소 정보에는 address, city, country 테이블로 구성하였습니다.</a>
                      <br>
                              </div>
                              
-                       <div class="small text-white"></div>
+                       <div class="small "></div>
                        </div>
                    </div>
                </div>
@@ -145,30 +145,29 @@
         
            <!-- 팀 구성(각자 쓰기) -->  
                <div class="col-xl-6 col-md-12">
-                   <div class="card bg-success text-white mb-4">
-                       <div class="card-body">팀 구성</div>
+                   <div class="card  text mb-4"  style="background-color : #e6cdfa">
+                       <div class="card-body"># 팀 구성</div>
                        <div class="card-footer d-flex align-items-center justify-content-between">
-                           <a>김서영, 김민정, 최지선, 송원혁, 정유석, 김종훈</a>
-                           <div class="small text-white"></div>
+                           <a>김민정, 김서영, 최지선, 송원혁, 정유석, 김종훈</a>
+                           <div class="small "></div>
                        </div>
                    </div>
                </div>
                
              <!-- 사용된 기술 서술 -->  
                <div class="col-xl-6 col-md-12">
-                   <div class="card bg-danger text-white mb-4">
-                       <div class="card-body">사용된 기술</div>
+                   <div class="card text mb-4"  style="background-color : #e6cdfa">
+                       <div class="card-body"># 사용된 기술</div>
                        <div class="card-footer d-flex align-items-center justify-content-between">
                              <div>
-                             <a>Vo,Dao,리스트로 나누어서 프로젝트를 구성</a><br>
-		                     <a>sql쿼리를 활용한 Dao 생성</a><br>
-		                     <a>Dao를 통한 리스트 생성</a><br>
-		                     <a>INNER JOIN을 통한 테이블 생성</a><br>
-		                     <a>INSERT FORM,INSERT ACTION으로 구성하여 테이블에 삽입을 가능하게 구성</a><br>
-		                     <a>Dao에 모든 쿼리를 사용한 기능을 집어 넣어서 호출해서 사용할 수 있도록 구성</a><br>
-		                     <a>각 리스트당 페이징 및 검색결과 페이징</a><br>
+                             <a>Vo,Dao,View로 나누어서 프로젝트 구성</a><br>
+		                     <a>sql쿼리 활용한 Dao 생성</a><br>
+		                     <a>Dao 통한 view 생성</a><br>
+		                     <a>INNER JOIN을 통한 쿼리 생성</a><br>
+		                     <a>INSERT FORM, INSERT ACTION으로 구성하여 테이블에 삽입 기능 구현</a><br>
+		                     <a>각 view Page 리스트당 페이징 및 검색결과 페이징</a><br>
                      </div>
-                           <div class="small text-white"></div>
+                           <div class="small "></div>
                        </div>
                    </div>
                </div>
