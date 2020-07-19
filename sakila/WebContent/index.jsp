@@ -58,7 +58,7 @@
                        <!-- 언어 -->
                        <div class="card-footer d-flex align-items-center justify-content-between">
                              <div>
-                     <h6>사용된 언어</h6>
+                     <h6># 사용된 언어</h6>
                             </div>
                            
                        </div>
@@ -81,7 +81,7 @@
                        <div class="small text-white"></div>
                        </div>
                        
-                        <!-- IDE -->
+                        <!-- IDE --> 
                        <div class="card-footer d-flex align-items-center justify-content-between">
                              <div>
                      <h6># 사용된 IDE</h6>
